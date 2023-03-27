@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>Formulario Completo</title>
+</head>
+<body>
+    <h2>Formulario de ejemplo</h2>
+<form action="link" method="POST" target="_blank">
+    <label for="firstname">Nombre</label>
+    <input size="30" type="Text" name="firstname" id="firstname" required value="Requerido">
+    <br>
+    <label for="solonumero">Igresar solo un numero</label>
+    <input size="30" type="number" name="solonumero" id="solonumero">
+    <br>
+    <label for="fecha">Igresar fecha</label>
+    <input size="30" type="date" name="fecha" id="fecha">
+    <br>
+    <label for="pass">Password</label>
+    <input size="30" type="password" name="pass" id="pass">
+    <br>
+    <label for="email">E-mail</label>
+    <input size="30" type="email" name="email" id="email" placeholder="ejemplo@gmail.com">
+    <br>
+    <label for="url">Url</label>
+    <input size="30" type="url" name="url" id="url">
+    <br>
+    <label for="tel">Telefono</label>
+    <input size="30" type="tel" name="tel" id="tel">
+    <br>
+    <label for="file">Archivo</label>
+    <input size="30" type="file" name="file" id="file">
+    <br>
+    <label for="button">Activo JAvaScript</label>
+    <input size="30" type="button" name="button" id="button" >
+    <br>
+    <h3>Checkbox</h3>
+    <input type="checkbox" name="opcion">Opcion 1<br>
+    <input type="checkbox" name="opcion">Opcion 2<br>
+    <input type="checkbox" name="opcion">Opcion 3<br>
+    <input type="checkbox" name="opcion">Opcion 4<br>
+    <input type="checkbox" name="opcion">Opcion 5<br>
+    <br>
+    <h3>RadioButton</h3>
+    <input type="radio" name="opcionradio" value="1">Opcion 1<br>
+    <input type="radio" name="opcionradio" value="2">Opcion 2<br>
+    <input type="radio" name="opcionradio" value="3">Opcion 3<br>
+    <input type="radio" name="opcionradio" value="4">Opcion 4<br>
+    <input type="radio" name="opcionradio" value="5">Opcion 5<br>
+    <br>
+    Consulta: <br><textarea name="comentario" rows="10" cols="40">Escribe tu consulta...</textarea>
+    <br>
+    Selecciones solo uno<br>
+    <select name="color" size="1" id="color" value="color" name="color">
+        <option>Rojo</option>
+        <option>Verde</option>
+        <option>Azul</option>
+        <option>Amarillo</option>
+    </select>
+    <br>
+    Selecciones varios<br>
+    <select name="animal" size="4" id="animal" value="animal" name="animal" multiple>
+        <option>perro</option>
+        <option>gato</option>
+        <option>raton</option>
+        <option>caballo</option>
+        <option>pajaro</option>
+    </select>
+    <input type="reset" value="Borrar datos"><input type="submit" value="Enviar datos">
+    
+
+</form>
+</body>
+</html>
